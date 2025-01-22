@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: 'yekan-reg';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src:url('../font/Yekan/TTF/YekanBakhFaNum-Regular.ttf')format('truetype');
+  }
+  @font-face {
+    font-family: 'yekan-med';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src:url('../font/Yekan/TTF/YekanBakhFaNum-Light.ttf')format('truetype');
+  }
+ 
+
+  .swiper-slide {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+body::-webkit-scrollbar{
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #c7c7c7;
+  border-radius: 6px;
+}
+
+.ms::-webkit-scrollbar{
+  width: 8px;
+}
+.ms::-webkit-scrollbar-track{
+  width: 0px;
+}
+
+
+.ms::-webkit-scrollbar-thumb{
+  background: #c7c7c7;
+  border-radius: 6px;
+}
+
+
+.mss::-webkit-scrollbar{
+  width: 8px;
+}
+
+.mss::-webkit-scrollbar-thumb{
+  background: #c7c7c7;
+  border-radius: 6px;
+}
+
+
+
+
+
+
